@@ -1,0 +1,259 @@
+<component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+        <option name="myName" value="Zone-bot" />
+        <inspection_tool class="091614a1-8db5-3961-a80b-3fbdac9b018c" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="1453fff0-8113-381d-ae33-c1f3917f5b2c" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="25736eba-2721-3f08-9b29-144f0faa1b79" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="2afeb6b3-56ee-3240-8a98-d367c8654ade" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="5dff24b0-1ea7-3f58-8adc-4df10c433664" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="98f58be0-94b4-386b-baba-f30acc38cefb" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ArrayEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="AssertStatement" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="BoundedWildcard" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="BreakStatement" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+        <inspection_tool class="CharUsedInArithmeticContext" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ClassCanBeRecord" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+        <inspection_tool class="ClassInitializer" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ClassNewInstance" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="CloneInNonCloneableClass" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ComparisonOfShortAndChar" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ConfusingFloatingPointLiteral" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ConstantMathCall" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="CustomSecurityManager" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="DefaultNotLastCaseInSwitch" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="DuplicateStringLiteralInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="MIN_STRING_LENGTH" value="5" />
+            <option name="IGNORE_PROPERTY_KEYS" value="false" />
+        </inspection_tool>
+        <inspection_tool class="EditorConfigDeprecatedDescriptor" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="EnumerationCanBeIteration" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="EqualsCalledOnEnumConstant" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ErrorRethrown" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+        <inspection_tool class="ExtendsUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="FieldMayBeStatic" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="HardCodedStringLiteral" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="ignoreForAssertStatements" value="true" />
+            <option name="ignoreForExceptionConstructors" value="true" />
+            <option name="ignoreForSpecifiedExceptionConstructors" value="" />
+            <option name="ignoreForJUnitAsserts" value="true" />
+            <option name="ignoreForClassReferences" value="true" />
+            <option name="ignoreForPropertyKeyReferences" value="true" />
+            <option name="ignoreForNonAlpha" value="true" />
+            <option name="ignoreAssignedToConstants" value="true" />
+            <option name="ignoreToString" value="false" />
+            <option name="nonNlsCommentPattern" value="NON-NLS" />
+            <option name="ignoreForEnumConstant" value="true" />
+        </inspection_tool>
+        <inspection_tool class="HardcodedFileSeparators" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="m_recognizeExampleMediaType" value="false" />
+        </inspection_tool>
+        <inspection_tool class="HardcodedLineSeparators" enabled="false" level="ERROR" enabled_by_default="false" />
+        <inspection_tool class="IfStatementWithTooManyBranches" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="m_limit" value="3" />
+        </inspection_tool>
+        <inspection_tool class="IgnoreResultOfCall" enabled="true" level="INFORMATION" enabled_by_default="true">
+            <option name="m_reportAllNonLibraryCalls" value="false" />
+            <option name="callCheckString" value="java.io.File,.*,java.io.InputStream,read|skip|available|markSupported,java.io.Reader,read|skip|ready|markSupported,java.lang.AbstractStringBuilder,capacity|codePointAt|codePointBefore|codePointCount|indexOf|lastIndexOf|offsetByCodePoints|substring|subSequence,java.lang.Boolean,.*,java.lang.Byte,.*,java.lang.Character,.*,java.lang.Double,.*,java.lang.Float,.*,java.lang.Integer,.*,java.lang.Long,.*,java.lang.Math,.*,java.lang.Object,equals|hashCode|toString,java.lang.Short,.*,java.lang.StrictMath,.*,java.lang.String,.*,java.lang.Thread,interrupted,java.math.BigDecimal,.*,java.math.BigInteger,.*,java.net.InetAddress,.*,java.net.URI,.*,java.nio.channels.AsynchronousChannelGroup,.*,java.util.Arrays,.*,java.util.Collections,(?!addAll).*,java.util.List,of,java.util.Map,of|ofEntries|entry,java.util.Set,of,java.util.UUID,.*,java.util.concurrent.BlockingQueue,offer|remove,java.util.concurrent.CountDownLatch,await|getCount,java.util.concurrent.ExecutorService,awaitTermination|isShutdown|isTerminated,java.util.concurrent.ForkJoinPool,awaitQuiescence,java.util.concurrent.Semaphore,tryAcquire|availablePermits|isFair|hasQueuedThreads|getQueueLength|getQueuedThreads,java.util.concurrent.locks.Condition,await|awaitNanos|awaitUntil,java.util.concurrent.locks.Lock,tryLock|newCondition,java.util.regex.Matcher,pattern|toMatchResult|start|end|group|groupCount|matches|find|lookingAt|quoteReplacement|replaceAll|replaceFirst|regionStart|regionEnd|hasTransparentBounds|hasAnchoringBounds|hitEnd|requireEnd,java.util.regex.Pattern,.*,java.util.stream.BaseStream,.*,java.util.stream.DoubleStream,.*,java.util.stream.IntStream,.*,java.util.stream.LongStream,.*,java.util.stream.Stream,.*" />
+        </inspection_tool>
+        <inspection_tool class="InstanceofChain" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+            <option name="ignoreInstanceofOnLibraryClasses" value="false" />
+        </inspection_tool>
+        <inspection_tool class="InstanceofIncompatibleInterface" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="JDBCPrepareStatementWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="JavaLangImport" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="KeySetIterationMayUseEntrySet" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ListenerMayUseAdapter" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="checkForEmptyMethods" value="true" />
+        </inspection_tool>
+        <inspection_tool class="LoadLibraryWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="LongLine" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+        <inspection_tool class="MagicCharacter" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="MagicNumber" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="ignoreInitialCapacity" value="true" />
+        </inspection_tool>
+        <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="MissingDeprecatedAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="m_requireAnnotationsFirst" value="true" />
+        </inspection_tool>
+        <inspection_tool class="NativeMethods" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="NegatedEqualityExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="NewExceptionWithoutArguments" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="NonPublicClone" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="NonReproducibleMathCall" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="NonThreadSafeLazyInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ObjectInstantiationInEqualsHashCode" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="OptionalContainsCollection" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ignoreInMatchingInstanceof" value="false" />
+        </inspection_tool>
+        <inspection_tool class="ProblematicVarargsMethodOverride" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ProtectedInnerClass" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ignoreEnums" value="false" />
+            <option name="ignoreInterfaces" value="false" />
+        </inspection_tool>
+        <inspection_tool class="PublicConstructorInNonPublicClass" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="RandomDoubleForRandomInteger" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="RedundantFieldInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="RedundantMethodOverride" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="RefusedBequest" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="ignoreEmptySuperMethods" value="false" />
+            <option name="onlyReportWhenAnnotated" value="true" />
+        </inspection_tool>
+        <inspection_tool class="ResultSetIndexZero" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="ReturnNull" enabled="true" level="ERROR" enabled_by_default="true">
+            <option name="m_reportObjectMethods" value="true" />
+            <option name="m_reportArrayMethods" value="true" />
+            <option name="m_reportCollectionMethods" value="true" />
+            <option name="m_ignorePrivateMethods" value="false" />
+        </inspection_tool>
+        <inspection_tool class="RuntimeExec" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="RuntimeExecWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+            <replaceConfiguration name="all-flag-types" suppressId="vanilla-only-flag-types" problemDescriptor="Your probably wanting all flag types, replace" text="org.zone.region.flag.FlagTypes.getVanillaFlags()" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="org.zone.ZonePlugin.getZonesPlugin().getFlagManager().getRegistered()">
+                <constraint name="__context__" within="" contains="" />
+            </replaceConfiguration>
+            <replaceConfiguration name="get Eco flag by method" suppressId="no-eco-method" problemDescriptor="Economy flag is always present" text="$zone$.getFlag(org.zone.region.flag.FlagTypes.ECO)" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="$zone$.getEconomy()">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="zone" nameOfExprType="Zone" exprTypeWithinHierarchy="true" within="" contains="" />
+            </replaceConfiguration>
+            <replaceConfiguration name="get Member flag by method" suppressId="no-member-method" problemDescriptor="Members is always valid" text="$zone$.getFlag(org.zone.region.flag.FlagTypes.MEMBERS)" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="$zone$.getMembers()">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="zone" nameOfExprType="Zone" exprTypeWithinHierarchy="true" within="" contains="" />
+            </replaceConfiguration>
+            <searchConfiguration name="Incompatible-flags" problemDescriptor="Taggable flags cannot store values" text="class $A$ implements $Interface1$, $Interface2$ {&#10;}" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="A" within="" contains="" />
+                <constraint name="Interface1" regexp="org\.zone\.region\.flag\.Flag\.ValueStore" withinHierarchy="true" within="" contains="" />
+                <constraint name="Interface2" regexp="org\.zone\.region\.flag\.Flag\.TaggedFlag" withinHierarchy="true" target="true" within="" contains="" />
+            </searchConfiguration>
+            <replaceConfiguration name="remove-add-should-be-set" suppressId="remove-add-flag" problemDescriptor="Simplify code" text="$zone$.removeFlag($flag$.getType());&#10;$zone$.addFlag($flag$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="$zone$.setFlag($flag$);">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="zone" nameOfExprType="Zone" within="" contains="" />
+                <constraint name="flag" nameOfExprType="Flag" exprTypeWithinHierarchy="true" within="" contains="" />
+            </replaceConfiguration>
+            <searchConfiguration name="serialize-no-optional" problemDescriptor="Optional values cannot be saved" text="node($node$).set($value$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="node" within="" contains="" />
+                <constraint name="value" nameOfExprType="java\.util\.Optional" target="true" within="" contains="" />
+            </searchConfiguration>
+            <searchConfiguration name="String-Argument-prevent-use" suppressId="allow-string-argument" problemDescriptor="StringArgument can accept anything as valid, this may have issues with other commands, try using another argument where possible" text="new org.zone.commands.system.arguments.simple.StringArgument($id$)" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="id" nameOfExprType="String" within="" contains="" />
+            </searchConfiguration>
+            <searchConfiguration name="useless-children-in-bounded-region" problemDescriptor="A bounded region cannot have children" text="$region$.getChildren()" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="region" nameOfExprType="BoundedRegion" exprTypeWithinHierarchy="true" within="" contains="" />
+            </searchConfiguration>
+            <searchConfiguration name="usless-true-children-in-bounded-region" problemDescriptor="Bounded Region cannot have children" text="$region$.getTrueChildren()" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="region" nameOfExprType="BoundedRegion" exprTypeWithinHierarchy="true" within="" contains="" />
+            </searchConfiguration>
+            <replaceConfiguration name="zone-argument-no-properteries" problemDescriptor="ZoneArgument has default properties, can be simplified" text="new org.zone.commands.system.arguments.zone.ZoneArgument($id$, new ZoneArgument.ZoneArgumentPropertiesBuilder());" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="new ZoneArgument($id$);">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="id" nameOfExprType="String" within="" contains="" />
+            </replaceConfiguration>
+            <replaceConfiguration name="Zone-group-keys-vs-all-group-keys" suppressId="vanilla-only" problemDescriptor="GroupKeys.values does not get keys that were registered using another source. Use the following to get all known groupkeys" text="org.zone.region.group.key.GroupKeys.values()" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="org.zone.ZonePlugin.getZonesPlugin().getGroupKeyManager().getKeys()">
+                <constraint name="__context__" within="" contains="" />
+            </replaceConfiguration>
+            <searchConfiguration name="Zone remove eco flag" problemDescriptor="Cannot remove the economy flag" text="$zone$.removeFlag(org.zone.region.flag.FlagTypes.ECO)" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="zone" nameOfExprType="Zone" exprTypeWithinHierarchy="true" within="" contains="" />
+            </searchConfiguration>
+            <searchConfiguration name="Zone remove members flag" problemDescriptor="Should not be removing the members flag" text="$zone$.removeFlag(org.zone.region.flag.FlagTypes.MEMBERS)" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+                <constraint name="__context__" within="" contains="" />
+                <constraint name="zone" nameOfExprType="Zone" exprTypeWithinHierarchy="true" within="" contains="" />
+            </searchConfiguration>
+            <replaceConfiguration name="ZoneArgumentPropertiesBuilder-default-level" suppressId="zone-arg-builder-default-level" problemDescriptor="Builder has level of OWNER by default" text="new ZoneArgument.ZoneArgumentPropertiesBuilder().setLevel(GroupKeys.OWNER)" recursive="false" caseInsensitive="true" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="new ZoneArgument.ZoneArgumentPropertiesBuilder()">
+                <constraint name="__context__" within="" contains="" />
+            </replaceConfiguration>
+            <replaceConfiguration name="ZoneArgumentPropertiesBuilder-default-mains-only" suppressId="ZoneArgumentPropertiesBuilder-default-mains-only" problemDescriptor="mains-only has a default value of true already" text="new ZoneArgument.ZoneArgumentPropertiesBuilder().setOnlyMainZones(true)" recursive="false" caseInsensitive="true" type="JAVA" pattern_context="default" reformatAccordingToStyle="false" shortenFQN="false" replacement="new ZoneArgument.ZoneArgumentPropertiesBuilder()">
+                <constraint name="__context__" within="" contains="" />
+            </replaceConfiguration>
+        </inspection_tool>
+        <inspection_tool class="SamePackageImport" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="SerializableDeserializableClassInSecureContext" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="Singleton" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="StaticImport" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="StaticNonFinalField" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="StringReplaceableByStringBuffer" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="onlyWarnOnLoop" value="true" />
+        </inspection_tool>
+        <inspection_tool class="SuspiciousArrayCast" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="SystemExit" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="SystemGetenv" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="SystemOutErr" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="SystemProperties" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SystemSetSecurityManager" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThreadDeathRethrown" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="TypeMayBeWeakened" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+            <option name="useRighthandTypeAsWeakestTypeInAssignments" value="true" />
+            <option name="useParameterizedTypeForCollectionMethods" value="true" />
+            <option name="doNotWeakenToJavaLangObject" value="false" />
+            <option name="onlyWeakentoInterface" value="true" />
+        </inspection_tool>
+        <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="UNCHECKED_WARNING" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="IGNORE_UNCHECKED_ASSIGNMENT" value="false" />
+            <option name="IGNORE_UNCHECKED_GENERICS_ARRAY_CREATION" value="true" />
+            <option name="IGNORE_UNCHECKED_CALL" value="false" />
+            <option name="IGNORE_UNCHECKED_CAST" value="true" />
+            <option name="IGNORE_UNCHECKED_OVERRIDING" value="false" />
+        </inspection_tool>
+        <inspection_tool class="UnnecessarilyQualifiedStaticallyImportedElement" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnnecessaryFinalOnLocalVariableOrParameter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+        <inspection_tool class="UnnecessarySuperConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="UnusedReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="UseOfAWTPeerClass" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="UseOfAnotherObjectsPrivateField" enabled="true" level="ERROR" enabled_by_default="true">
+            <option name="ignoreSameClass" value="true" />
+            <option name="ignoreEquals" value="true" />
+            <option name="ignoreInnerClasses" value="true" />
+        </inspection_tool>
+        <inspection_tool class="UseOfJDBCDriverClass" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="UseOfProcessBuilder" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="UseOfSunClasses" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ignorableAnnotations">
+                <value />
+            </option>
+            <option name="ignoreClassesWithOnlyMain" value="false" />
+        </inspection_tool>
+        <inspection_tool class="ab6ee01e-062f-3c0b-a8fe-290fa10d9533" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="b7a0d398-387b-34e2-b34c-bdb80d783d94" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="c30ac1b3-2e27-330e-9141-3cccebb7a37a" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="d94dfbc5-0c9d-391b-9048-ad2ec035eb66" enabled="true" level="ERROR" enabled_by_default="true" />
+        <inspection_tool class="dcfebccd-121b-320f-ac1f-b8c3d0cc9f4b" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="e15b3c6e-a42f-3e97-955e-d315bb9d0d38" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="ea9c077f-7fe2-3ebe-b38a-c5136b0f736a" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="f262b04b-fb80-3a9b-a176-1853c36e9b4b" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+        <inspection_tool class="unused" enabled="true" level="WARNING" enabled_by_default="true" klass="packageLocal" inner_class="packageLocal" method="packageLocal">
+            <option name="LOCAL_VARIABLE" value="true" />
+            <option name="FIELD" value="true" />
+            <option name="METHOD" value="true" />
+            <option name="CLASS" value="true" />
+            <option name="PARAMETER" value="true" />
+            <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+            <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+            <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+            <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+            <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+            <option name="selected" value="true" />
+            <option name="MIXIN_ENTRY_POINT" value="true" />
+        </inspection_tool>
+    </profile>
+</component>
