@@ -18,6 +18,6 @@ public class NLPWhereAreJavadocs implements NLPCommand {
 
     @Override
     public Message getResponse(String originalMessage) {
-        return new MessageBuilder().setContent("Looking for the Javadocs?\nNot currently up").build();
+        return new MessageBuilder().setContent("Looking for the Javadocs?\nhttps://zone-protect.github.io/Zone-protect/").build();
     }
 }
