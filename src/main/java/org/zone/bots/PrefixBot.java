@@ -18,8 +18,8 @@ public class PrefixBot extends ListenerAdapter {
         if (!(message.startsWith("zone!") || message.startsWith("zones!") || message.startsWith("z!"))) {
             return;
         }
-        String[] commandSplit = message.split("! ", 2);
-        if (commandSplit.length <= 1) {
+        String[] commandSplit = message.split("!", 2);
+        if (commandSplit.length <= 1 || commandSplit[1].isEmpty()) {
             String rMessage =
                     ZoneBot.getInstance().getNaturalLanguageCommandManager().getCommands().parallelStream().map(nlpCommand -> " - " + nlpCommand.getCommand()).collect(Collectors.joining("\n"));
             event.getMessage().reply(new MessageBuilder().setContent(rMessage).build()).queue();

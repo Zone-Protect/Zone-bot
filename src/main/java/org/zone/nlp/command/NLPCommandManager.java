@@ -1,7 +1,5 @@
 package org.zone.nlp.command;
 
-import org.zone.nlp.group.Word;
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
@@ -33,13 +31,13 @@ public class NLPCommandManager {
         boolean check = command.getRequiredQuestion().stream().anyMatch(keyWords -> {
             String[] words = message.split(" ");
             int pointer = 0;
-            for (Word keyWord : keyWords) {
+            for (WordKey keyWord : keyWords) {
                 boolean passed = false;
                 for (int i = pointer; i < words.length; i++) {
                     String targetWord = words[i];
-                    if (keyWord.match(targetWord)) {
+                    if (keyWord.getWord().match(targetWord)) {
                         pointer = i;
-                        passed = true;
+                        passed = !keyWord.isFailingWord();
                         break;
                     }
                 }
