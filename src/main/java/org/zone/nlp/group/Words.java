@@ -4,6 +4,7 @@ public enum Words implements Word {
     WHAT("what"),
     WHERE("where"),
     LINK("link", "url", "uri"),
+    DOWNLOAD("download", "release"),
     JAVA_DOCS("JavaDoc", "jd", "javadocs");
 
 

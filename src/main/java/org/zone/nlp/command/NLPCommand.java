@@ -12,4 +12,6 @@ public interface NLPCommand {
 
     Message getResponse(String originalMessage);
 
+    String getCommand();
+
 }

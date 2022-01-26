@@ -3,7 +3,9 @@ package org.zone;
 import net.dv8tion.jda.api.JDABuilder;
 import org.apache.log4j.BasicConfigurator;
 import org.zone.bots.FAQBot;
+import org.zone.bots.PrefixBot;
 import org.zone.nlp.command.NLPCommandManager;
+import org.zone.nlp.command.NLPReleases;
 import org.zone.nlp.command.NLPWhereAreJavadocs;
 
 import javax.security.auth.login.LoginException;
@@ -31,6 +33,7 @@ public final class ZoneBot {
     public static void initBot() {
         bot = new ZoneBot();
         bot.nlpCommandManager.register(new NLPWhereAreJavadocs());
+        bot.nlpCommandManager.register(new NLPReleases());
     }
 
     public static void main(String[] args) {
@@ -43,7 +46,7 @@ public final class ZoneBot {
         logger.info("Booting");
         initBot();
         try {
-            JDABuilder.createDefault(args[0]).addEventListeners(new FAQBot()).build();
+            JDABuilder.createDefault(args[0]).addEventListeners(new FAQBot(), new PrefixBot()).build();
         } catch (LoginException e) {
             e.printStackTrace();
         }

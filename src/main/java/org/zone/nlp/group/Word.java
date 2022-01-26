@@ -9,6 +9,9 @@ public interface Word {
     String[] getCommonSpelling();
 
     default boolean match(String string) {
+        if (string.endsWith("s") && !string.endsWith("ss")) {
+            return this.match(string.substring(0, string.length() - 1));
+        }
         if (string.equalsIgnoreCase(this.getCorrectSpelling())) {
             return true;
         }
